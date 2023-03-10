@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/estilo.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js">
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <title>Internet das Coisas</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0);" onclick="index();">IoT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" aria-current="page" onclick="sobre();">O que é<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="funcionamento();">Funcionamento<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="exemplos();">Exemplos de IoT<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="vantagens();">Vantagens<span class="sr-only"></span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn btn-outline-primary" href="javascript:void(0);" onclick="login();" role="button">Faça Login</a>           
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Exemplos de IoT</h1>
+
+      <div>
+        <figure><img class="exemplo1" src="img/carros_conectados.png" alt=""></figure>
+            <h4>Carros Inteligentes</h4>
+                <p class="ex1">Há muitas maneiras pelas quais veículos, como carros, podem ser conectados à Internet. Pode ser por meio de câmeras automotivas inteligentes, sistemas de informações e entretenimento ou até mesmo do gateway conectado do veículo. Eles coletam dados do acelerador, dos freios, do velocímetro, do hodômetro, das rodas e dos tanques de combustível para monitorar a performance do condutor e a integridade do veículo. Os carros conectados têm uma série de usos:</p>
+                    <li class="linha1">Monitorar frotas de carros de aluguel para aumentar a eficiência do combustível e reduzir custos.</li>
+                    <li class="linha1">Ajudar os pais a monitorar o comportamento de condução de seus filhos.</li>
+                    <li class="linha1">Notificar amigos e familiares automaticamente em caso de acidente do veículo.</li>
+                    <li class="linha1">Prever e prevenir as necessidades de manutenção do veículo.</li>
+      </div>
+
+      <div>
+        <figure><img class="exemplo2" src="img/residencias.jfif" alt=""></figure>
+            <h4>Casas Conectadas</h4>
+                <p class="ex2">Os dispositivos domésticos inteligentes concentram-se principalmente em melhorar a eficiência e a segurança da casa, além de melhorar as redes domésticas. Dispositivos como tomadas inteligentes monitoram o uso de eletricidade e termostatos inteligentes fornecem melhor controle de temperatura. Os sistemas hidropônicos podem usar sensores de IoT para gerenciar a horta, enquanto os detectores de fumaça de IoT podem detectar fumaça de tabaco. Sistemas de segurança doméstica, como fechaduras, câmeras de segurança e detectores de vazamento de água, podem detectar e prevenir ameaças e enviar alertas aos proprietários.</p>
+                <p class="ex2">Os dispositivos conectados para a casa podem ser usados para:</p>
+                    <li class="linha2">Desativar automaticamente os dispositivos que não estão sendo usados.</li>
+                    <li class="linha2">Gerenciamento e manutenção de imóveis alugados.</li>
+                    <li class="linha2">Encontrar itens perdidos, como chaves ou carteiras.</li>
+                    <li class="linha2">Automatizar tarefas diárias como aspirar, fazer café etc.</li>
+      </div>
+
+      <div>
+        <figure><img class="exemplo1" src="img/cidades.jpg" alt=""></figure>
+            <h4>Cidades Inteligentes</h4>
+                <p class="ex1">As aplicações de IoT tornaram o planejamento urbano e a manutenção de infraestrutura mais eficientes. Os governos estão usando aplicações de IoT para resolver problemas de infraestrutura, saúde e meio ambiente. As aplicações de IoT podem ser usadas para:</p>
+                    <li class="linha1">Medir a qualidade do ar e os níveis de radiação.</li>
+                    <li class="linha1">Reduzir contas de energia com sistemas de iluminação inteligentes.</li>
+                    <li class="linha1">Detectar necessidades de manutenção para infraestruturas críticas, como ruas, pontes e dutos.</li>
+                    <li class="linha1">Aumentar lucros por meio do gerenciamento eficiente de estacionamentos.</li>
+      </div>
+
+      <div>
+        <figure><img class="exemplo2" src="img/edificios.jpg" alt=""></figure>
+            <h4>Edifícios Inteligentes</h4>
+                <p class="ex2">Edifícios como campi universitários e edifícios comerciais usam aplicações de IoT para aumentar a eficiência operacional. Os dispositivos de IoT podem ser usados em edifícios inteligentes para:</p>
+                    <li class="linha2">Reduzir o consumo de energia.</li>
+                    <li class="linha2">Reduzir custos de manutenção.</li>
+                    <li class="linha2">Utilizar espaços de trabalho de forma mais eficiente.</li>
+      </div>
+
+      <script src="bootstrap-5.3.0-alpha1-dist/js/code.js"></script>
+
+</body>
+</html>

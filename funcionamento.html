@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/estilo.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js">
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <title>Internet das Coisas</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0);" onclick="index();">IoT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" aria-current="page" onclick="sobre();">O que é<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="funcionamento();">Funcionamento<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="exemplos();">Exemplos de IoT<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" onclick="vantagens();">Vantagens<span class="sr-only"></span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn btn-outline-primary" href="javascript:void(0);" onclick="login();" role="button">Faça Login</a>           
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Como é o Funcionamento da IoT?</h1>
+      <p class="home">Um típico sistema de IoT funciona por meio da coleta e troca de dados em tempo real. Um sistema IoT tem três componentes:</p>
+
+      <li class="topico">Dispositivos inteligentes</li>
+      <p class="home">Este é um dispositivo, como uma televisão, uma câmera de segurança ou um equipamento de exercício que recebeu recursos de computação. Ele coleta dados de seu ambiente, entradas do usuário ou padrões de uso e comunica dados pela Internet de e para sua aplicação de IoT.</p>
+
+      <li class="topico">Aplicação de IoT</li>
+      <p class="home">Uma aplicação de IoT é um conjunto de serviços e software que integra dados recebidos de vários dispositivos de IoT. Ela utiliza tecnologia de machine learning ou inteligência artificial (IA) para analisar esses dados e tomar decisões informadas. Essas decisões são comunicadas de volta ao dispositivo de IoT e esse dispositivo responde de forma inteligente às entradas. </p>
+
+      <li class="topico">Uma interface gráfica do usuário</li>
+      <p class="home">O dispositivo de IoT ou a frota de dispositivos podem ser gerenciados por meio de uma interface gráfica do usuário. Exemplos comuns incluem uma aplicação móvel ou site que pode ser usado para registrar e controlar dispositivos inteligentes. </p>
+
+      <figure>
+        <img class="secun" src="img/IoT_esquema.png" alt="">
+      </figure>
+
+      <script src="bootstrap-5.3.0-alpha1-dist/js/code.js"></script>
+
+</body>
+</html>
